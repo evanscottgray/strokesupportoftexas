@@ -1,0 +1,1789 @@
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:29:56 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/railties-4.2.0.beta1/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 21ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:41:46 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/railties-4.2.0.beta1/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 17ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:43:17 +0000
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template home/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee, :haml]}. Searched in:
+  * "/usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates"
+  * "/srv/Rubydev/strokesupport/app/views"
+  * "/usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/app/views"
+  * "/usr/local/rvm/gems/ruby-2.0.0-p247/gems/devise-3.3.0/app/views"
+):
+  actionview (4.2.0.beta1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.0.beta1) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.0.beta1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.0.beta1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.0.beta1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.0.beta1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0.beta1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0.beta1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0.beta1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0.beta1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0.beta1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.2.0.beta1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0.beta1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0.beta1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0.beta1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:114:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:114:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:231:in `block in halting'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:231:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:231:in `block in halting'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:231:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:231:in `block in halting'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:87:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:87:in `run_callbacks'
+  actionpack (4.2.0.beta1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0.beta1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0.beta1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0.beta1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0.beta1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0.beta1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0.beta1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0.beta1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0.beta1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0.beta1) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0.beta1) lib/action_dispatch/routing/route_set.rb:72:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/routing/route_set.rb:72:in `dispatch'
+  actionpack (4.2.0.beta1) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.0.beta1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0.beta1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0.beta1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0.beta1) lib/action_dispatch/routing/route_set.rb:750:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.0.beta) lib/rack/etag.rb:23:in `call'
+  rack (1.6.0.beta) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0.beta) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/flash.rb:257:in `call'
+  rack (1.6.0.beta) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0.beta) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/cookies.rb:558:in `call'
+  activerecord (4.2.0.beta1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0.beta1) lib/active_record/connection_adapters/abstract/connection_pool.rb:645:in `call'
+  activerecord (4.2.0.beta1) lib/active_record/migration.rb:382:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0.beta1) lib/active_support/callbacks.rb:83:in `run_callbacks'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/static.rb:83:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta1) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta1) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:20 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.2ms)
+Warning. Error encountered while saving cache 957a3e7bed41ae19402eb82b3be53a176f8b5543/home.css.scssc: can't dump anonymous class #<Class:0x00000005cb9eb8>
+
+Completed 200 OK in 768ms (Views: 767.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:21 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:21 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:21 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:21 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:21 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:21 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:21 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:29 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:29 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:29 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:29 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:29 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:29 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:29 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:29 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:30 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 102ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:30 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:30 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:30 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:30 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:30 +0000
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:30 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:31 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:31 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:32 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:32 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:32 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:32 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:32 +0000
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:32 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:32 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:32 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:33 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:33 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:33 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:33 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:33 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:33 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:33 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:33 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:34 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:34 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:34 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:34 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:34 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:34 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:34 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:34 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:35 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:35 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:35 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:35 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:35 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:35 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:35 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:35 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 104ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:36 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:36 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:36 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:36 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:36 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:36 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:36 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:47:37 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:37 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:37 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:37 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:37 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:37 +0000
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:47:37 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:47:37 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:50:37 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:50:37 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:50:37 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:50:37 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:50:37 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:50:37 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:50:37 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:50:37 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:51:24 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml (0.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:51:29 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 103ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:51:29 +0000
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:51:29 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:51:29 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:51:29 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:51:29 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:51:29 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:51:29 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 02:56:48 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.8ms)
+  Rendered home/index.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-84425b56c7e1933196b86c0968146527.css?body=1" for 72.177.199.38 at 2014-09-27 02:56:48 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 02:56:48 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 02:56:48 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 02:56:48 +0000
+
+
+Started GET "/assets/home-32740fa4bc301ff5ef2eca5d8d82335a.js?body=1" for 72.177.199.38 at 2014-09-27 02:56:48 +0000
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 02:56:48 +0000
+
+
+Started GET "/assets/application-903c7cae7762c15df7344a13cbcb2439.js?body=1" for 72.177.199.38 at 2014-09-27 02:56:48 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 03:14:56 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (1.1ms)
+  Rendered home/index.html.haml within layouts/application (7.1ms)
+Warning. Error encountered while saving cache 957a3e7bed41ae19402eb82b3be53a176f8b5543/application.css.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 7089d030fd3479622eb0a5d913e8bb6a93179304/_bootstrap-sprockets.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 7089d030fd3479622eb0a5d913e8bb6a93179304/_bootstrap.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_variables.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_mixins.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_hide-text.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_opacity.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_image.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_labels.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_reset-filter.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_resize.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_responsive-visibility.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_size.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_tab-focus.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_text-emphasis.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_text-overflow.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_vendor-prefixes.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_alerts.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_buttons.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_panels.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_pagination.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_list-group.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_nav-divider.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_forms.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_progress-bar.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_table-row.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_background-variant.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_border-radius.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_gradients.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_clearfix.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_center-block.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_nav-vertical-align.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_grid-framework.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_grid.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_normalize.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_print.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_glyphicons.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_scaffolding.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_type.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_code.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_grid.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_tables.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_forms.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_buttons.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_component-animations.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_dropdowns.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_button-groups.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_input-groups.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_navs.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_navbar.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_pagination.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_pager.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_labels.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_badges.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_jumbotron.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_thumbnails.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_alerts.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_progress-bars.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_media.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_list-group.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_panels.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_responsive-embed.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_wells.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_close.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_modals.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_tooltip.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_popovers.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_carousel.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_utilities.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Completed 500 Internal Server Error in 3459ms
+
+Sprockets::FileNotFound (couldn't find file 'turbolinks.jquery'
+  (in /srv/Rubydev/strokesupport/app/assets/javascripts/application.js:16)):
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml___1527369854563724744_49419020'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (11.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (64.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (100.9ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 03:15:51 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 03:15:52 +0000
+
+
+Started GET "/assets/application-db02281f0673a246e037b78bcee883d9.css?body=1" for 72.177.199.38 at 2014-09-27 03:15:52 +0000
+
+
+Started GET "/javascripts/application.js" for 72.177.199.38 at 2014-09-27 03:15:52 +0000
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta1) lib/action_dispatch/middleware/static.rb:83:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta1) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta1) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (10.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 03:16:10 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 03:16:24 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 509ms (Views: 508.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/application-db02281f0673a246e037b78bcee883d9.css?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:25 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 03:16:29 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 229ms (Views: 228.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-db02281f0673a246e037b78bcee883d9.css?body=1" for 72.177.199.38 at 2014-09-27 03:16:29 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:29 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:29 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:29 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:29 +0000
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 03:16:29 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:29 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 03:16:30 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 224ms (Views: 223.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-db02281f0673a246e037b78bcee883d9.css?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:29 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:30 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:30 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:30 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:30 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:30 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:30 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:30 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 03:25:30 +0000
+
+
+Started GET "/assets/application-db02281f0673a246e037b78bcee883d9.css?body=1" for 72.177.199.38 at 2014-09-27 03:25:34 +0000
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 03:25:34 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 20:25:40 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 8ms
+
+Haml::SyntaxError (Illegal nesting: nesting within a tag that already has content is illegal.):
+  app/views/layouts/application.html.haml:35
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (28.7ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 20:27:13 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 56ms
+
+Haml::SyntaxError (Illegal nesting: nesting within a tag that already has content is illegal.):
+  app/views/layouts/application.html.haml:35
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (28.8ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 20:42:17 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 8ms
+
+Haml::SyntaxError (Illegal nesting: nesting within a tag that already has content is illegal.):
+  app/views/layouts/application.html.haml:35
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (28.7ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 20:42:40 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 7ms
+
+Haml::SyntaxError (Illegal nesting: nesting within a tag that already has content is illegal.):
+  app/views/layouts/application.html.haml:35
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 176ms (Views: 175.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/application-db02281f0673a246e037b78bcee883d9.css?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 20:43:40 +0000
+
+
+Started GET "/assets/home-64845c436e75ac587deec98177291d4e.css?body=1" for 72.177.199.38 at 2014-09-27 20:44:36 +0000
+
+
+Started GET "/assets/application-db02281f0673a246e037b78bcee883d9.css?body=1" for 72.177.199.38 at 2014-09-27 20:44:36 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 20:52:36 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Warning. Error encountered while saving cache 957a3e7bed41ae19402eb82b3be53a176f8b5543/home.css.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 957a3e7bed41ae19402eb82b3be53a176f8b5543/application.css.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 7089d030fd3479622eb0a5d913e8bb6a93179304/_bootstrap-sprockets.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 7089d030fd3479622eb0a5d913e8bb6a93179304/_bootstrap.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_variables.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_mixins.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_hide-text.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_opacity.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_image.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_labels.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_reset-filter.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_resize.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_responsive-visibility.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_size.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_tab-focus.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_text-emphasis.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_text-overflow.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_vendor-prefixes.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_alerts.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_buttons.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_panels.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_pagination.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_list-group.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_nav-divider.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_forms.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_progress-bar.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_table-row.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_background-variant.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_border-radius.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_gradients.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_clearfix.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_center-block.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_nav-vertical-align.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_grid-framework.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 363fecf548b6ef11f9acacce7f177e2cc1ea2048/_grid.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_normalize.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_print.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_glyphicons.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_scaffolding.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_type.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_code.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_grid.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_tables.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_forms.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_buttons.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_component-animations.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_dropdowns.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_button-groups.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_input-groups.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_navs.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_navbar.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_pagination.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_pager.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_labels.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_badges.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_jumbotron.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_thumbnails.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_alerts.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_progress-bars.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_media.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_list-group.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_panels.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_responsive-embed.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_wells.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_close.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_modals.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_tooltip.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_popovers.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_carousel.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_utilities.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Warning. Error encountered while saving cache 6edf357e5e7a737938d29fb45f8ec44581fdddc0/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x000000055d72a8>
+
+Completed 200 OK in 3060ms (Views: 3058.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:39 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 20:52:40 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 20:52:48 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.7ms)
+  Rendered home/index.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 175ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 184ms (Views: 183.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:46 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:47 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:47 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:47 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 20:56:47 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 21:04:23 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 178ms (Views: 177.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:24 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:25 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:25 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:25 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:25 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:25 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:25 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:25 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:25 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 175ms (Views: 174.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:28 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:29 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 21:04:30 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 181ms (Views: 180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 72.177.199.38 at 2014-09-27 21:04:30 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:30 +0000
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 72.177.199.38 at 2014-09-27 21:04:30 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:30 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:30 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:30 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 21:04:31 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 173ms (Views: 172.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 21:05:31 +0000
+
+
+Started GET "/" for 70.123.161.222 at 2014-09-27 21:26:29 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 171ms (Views: 170.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 70.123.161.222 at 2014-09-27 21:26:29 +0000
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 70.123.161.222 at 2014-09-27 21:26:29 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:29 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:29 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:29 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:29 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 70.123.161.222 at 2014-09-27 21:26:30 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 175ms (Views: 173.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:10 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:11 +0000
+
+
+Started GET "/" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+Processing by HomeController#index as HTML
+  Rendered home/_table.html.haml (0.1ms)
+  Rendered home/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 174ms (Views: 173.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d3a3bfc389ff210cc29e672d36b54854.css?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/application-fe1ef4733684a6a44da6b20ecdc5c3bd.css?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/jquery-6a50177757f6c64493882fb7aae952c3.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/jquery_ujs-03cb26c4b41579fc5e95ea8f47ac5e18.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/jquery.turbolinks-759ca2553f6cc7cbe1b885cc49f418a3.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/turbolinks-cded62415a0d4fe656851f18de2622a5.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/affix-04c58ad484d0bdbdf9514b7d09505d25.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/alert-8186e091f2fa7c9423e9cadae6ce4de4.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/button-c9d4d44342d7be7abeb23fb0edbe00b7.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/carousel-b0f1e7b56803d98d500f5ccc15d550e3.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/collapse-417aacb8b3257798b481ed397b421b7c.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-f5a24e96d563b9a6d252c1c07a6ecc6b.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/tab-dec75af9b2ffeed03dc43eabdb771d48.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/transition-3005c626234d995c29e4bcbd07b3ac0c.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/modal-82015eda5031618c5aba3ebf9fc2cf4b.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f421d662af4612a610656bfeee3407d9.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-5e9e765caafcbcb1672a3e72ef7f4a3a.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap/popover-df8ed104d2525bbc4b4dad060e68cf99.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-99470846ba99b7073a929a36d4cee32a.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
+
+
+Started GET "/assets/application-dfc4c6d2f545d0af9152bc93aad896b1.js?body=1" for 72.177.199.38 at 2014-09-27 21:31:42 +0000
